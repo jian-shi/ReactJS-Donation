@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+  width: 600px;
+  height: 320px;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 2em;
+}
+
+li {
+  display: inline-block;
+  border: 1px solid;
+  padding: .5em;
+}
+
+li.active{
+  border: 2px solid #0275d8;
+}
+
+
+input#donation_amount_other:focus{
+  outline-width: 0;
+}
+input#donation_amount_other{
+  background: none;
+  border: none;
+  border-bottom: 1px solid white;
+  caret-color: white;
+  color: white;
+}
+
+.button-group {
+  position: absolute;
+  bottom: 2rem;
+  right: 4rem;
+}
+
+.userInput {
+  height: 12rem;
+  position: relative;
+  margin: 0 auto;
+}
